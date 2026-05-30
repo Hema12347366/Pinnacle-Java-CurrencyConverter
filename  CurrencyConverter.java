@@ -23,20 +23,17 @@ public class CurrencyConverter {
         switch (choice) {
             case 1:
               convertedAmount = amount * 83.0;
-           System.out.println(amount + " USD = " +
-                        convertedAmount + " INR");
+       System.out.println(amount + " USD = "+     convertedAmount + " INR");
                 break;
 
             case 2:
              convertedAmount = amount * 90.0;
-            System.out.println(amount + " EUR = " +
-                        convertedAmount + " INR");
+            System.out.println(amount + " EUR =  " +convertedAmount + " INR");
                 break;
 
             case 3:
-               convertedAmount = amount * 105.0;
-            System.out.println(amount + " GBP = " +
-                        convertedAmount + " INR");
+              convertedAmount = amount * 105.0;
+            System.out.println(amount + " GBP = " +convertedAmount + " INR");
                 break;
 
             default:
